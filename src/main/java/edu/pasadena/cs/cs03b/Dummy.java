@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Dummy {
 
     // Static tax table
-    static final double[] SALARY_RANGES = {0, 20000, 50000, 100000, Integer.MAX_VALUE};
-    static final double[] TAX_RATES = {0.0, 0.10, 0.20, 0.30, 0.40};
+    static final double[] SALARY_RANGES = {0, 11600, 47150, 100525, 191950, 243725, 609350};
+    static final double[] TAX_RATES = {0.10, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37};
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
